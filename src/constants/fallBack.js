@@ -1,0 +1,1 @@
+export const fallBackAvatar = "/assets/images/avatar-fallback.png"

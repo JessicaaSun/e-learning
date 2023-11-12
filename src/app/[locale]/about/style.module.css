@@ -1,0 +1,75 @@
+/* .App {
+    width: 700px;
+    position: relative;
+  } */
+  
+  /* div {
+    width: 20rem;
+    height: 20rem;
+  } */
+/* .slickSlider {
+    width: 100%;
+  }
+  
+  .slickList {
+    width: 100% !important;
+  } */
+  
+  /* .image {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2rem !important;
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+   */
+   .slickIcons {
+    position: absolute;
+    background-color: #e73b7b;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  /* .slickIconsLeft,
+  .slickIconsRight {
+    
+  } */
+  
+  /* .slickIconsLeft {
+    bottom: -5rem;
+    left: 2rem;
+  
+  }
+  
+  .slickIconsRight {
+    bottom: -5rem;
+    left: 7rem;
+  }
+   */
+  /* .progress {
+    position: absolute;
+    bottom: -3.5rem;
+    left: 15rem;
+    width: 200px;
+    height: 1rem;
+    background-color: gray;
+  }
+  
+  .progressFill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: red;
+    transition: 0.4s ease-in;
+  } */

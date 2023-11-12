@@ -1,0 +1,93 @@
+
+/*start style certificate 1 */
+
+.custom-shape-divider-top-1689436036 {   
+top: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+transform: rotate(180deg);
+}
+
+/* .custom-shape-divider-top-1689436036 svg {
+position: relative;
+display: block;
+width: calc(100% + 1.3px);
+height: 190px;
+} */
+
+.custom-shape-divider-top-1689436036 .shape-fill {
+fill: #3c5cff;
+}
+
+.custom-shape-divider-bottom-1689439914 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1689439914 svg {
+   
+    width: calc(100% + 1.3px);
+    height: 135px;
+}
+
+.custom-shape-divider-bottom-1689439914 .shape-fill {
+    fill: #3c5cff;
+}
+/* end style certificate 1 */
+
+
+
+/* start style certificate 2 */
+
+/* .custom-shape-divider-top-1689452153 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+} */
+
+.custom-shape-divider-top-1689452153 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 135px;
+}
+
+.custom-shape-divider-top-1689452153 .shape-fill {
+    fill: #94bbe9;
+}
+
+.custom-shape-divider-bottom-1689456175 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1689456175 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 135px;
+}
+
+.custom-shape-divider-bottom-1689456175 .shape-fill {
+    fill: #94bbe9;
+}
+
+.certificate3{
+
+    width: 617px;
+    height: 692px;
+
+}

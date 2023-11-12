@@ -1,0 +1,68 @@
+@use postcss-nested;
+
+button {
+  &:hover {
+    transform: scale(1.01);
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+
+  &:active {
+    transform: scale(0.99);
+  }
+}
+
+.check-svg {
+  animation: svgScale 0.5s ease-in-out;
+}
+.download-arrow {
+  transition: transform 0.2s linear;
+}
+button:hover .download-arrow {
+  transform: translate(0, 3px);
+}
+
+@keyframes svgScale {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+button.download-button {
+  min-width: 340px;
+  min-height: 68px;
+}
+.download-loader {
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  opacity: 0;
+  animation: button-loading-spinner 1s ease 3;
+}
+@keyframes button-loading-spinner {
+  from {
+    transform: rotate(0turn);
+    opacity: 1;
+  }
+
+  to {
+    transform: rotate(1turn);
+    opacity: 0;
+  }
+}
+.button-copy {
+  padding-top: 2px;
+}
+@media (max-width: 375px) {
+  button.copy-button {
+    min-width: 300px;
+  }
+}
